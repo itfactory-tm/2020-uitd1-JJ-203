@@ -215,9 +215,26 @@
             <h3 class="text-secondary mb-0">Contact</h3>
             <h2 class="mb-5">Contact us</h2>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, explicabo iusto? Adipisci aliquam animi
-            autem, cupiditate doloremque enim id nulla numquam quae quasi, qui quidem tempore vel, veniam voluptatem
-            voluptatibus!</p>
+        <form action="form.php" method="post">
+            <p>
+                <label>Naam<sup>*</sup> <input type="text" id="naam" size="15" maxlength="20" name="naam" placeholder="naam" required></label>
+            </p>
+            <p>
+                <label>E-mailadres<sup>*</sup> <input type="email" id="email" size="15" name="email" placeholder="e-mailadres" required></label>
+            </p>
+            <p>
+                <label for="bericht">Graag hier uw bericht:</label>
+            </p>
+            <p>
+                <textarea name="bericht" id="bericht" cols="30" rows="7" placeholder="uw bericht"></textarea>
+            </p>
+            <p>
+                <label>Ik ga akkoord met de verwerking van mijn personengegevens<sup>*</sup> <input type="checkbox" id="akkoord" name="akkoord" value="akkoord" required></label>
+            </p>
+            <p>
+                <input type="submit" value="Verstuur">
+            </p>
+        </form>
     </div>
 </section>
 
