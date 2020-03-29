@@ -1,2 +1,7 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+#portfolio{
+    color: black;
+    padding-top: 250px; 
+}
+

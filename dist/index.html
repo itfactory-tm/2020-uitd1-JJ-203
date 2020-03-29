@@ -22,6 +22,15 @@
     <!-- CSS: eigen stylesheet -->
     <link rel="stylesheet" href="css/webBureau.css">
 
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body id="page-top">
 
@@ -55,91 +64,59 @@
 <!-- Header -->
 <header class="masthead d-flex">
     <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
-        <h3 class="mb-5">
-            <em>A Free Bootstrap Theme by Start Bootstrap</em>
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        <!--<h1 class="mb-1">TRBLdesign</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi culpa dolor dolorem minima nisi nobis nulla perferendis repudiandae saepe.</p>-->
+<!--        <h3 class="mb-5">-->
+<!--            <em>A Free Bootstrap Theme by Start Bootstrap</em>-->
+<!--        </h3>-->
+<!--        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>-->
     </div>
     <div class="overlay"></div>
 </header>
 
 <!-- About -->
+
 <section class="content-section bg-light" id="about">
     <div class="container text-center">
+        <h2>Team</h2>
         <div class="row">
-            <div class="col-lg-10 mx-auto">
-                <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
-                    friends
-                    at
-                    <a href="https://unsplash.com/">Unsplash</a>!</p>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+<!--            <div class="col-lg-10 mx-auto">-->
+
+<!--                <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our-->
+<!--                    <a href="https://unsplash.com/">Unsplash</a>!</p>-->
+
+                    <div class="col-sm-12 col-md-4">
+                <figure>
+                    <span class="service-icon rounded-circle mx-auto mb-4">
+                        <img src="/tempicon.png" alt="Thiemo">
+                    </span>
+                    <figcaption> Thiemo Cumps</figcaption>
+                </figure>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                <figure>
+                    <span class="service-icon rounded-circle mx-auto mb-4">
+                  <img src="/tempicon.png" alt="Raphaël">
+                        </span>
+                    <figcaption>Raphaël van den Bergh</figcaption>
+                </figure>
+                </div>
+                    <div class="col-sm-12 col-md-4">
+                <figure>
+                    <span class="service-icon rounded-circle mx-auto mb-4">
+                    <img src="/tempicon.png" alt="Brent">
+                        </span>
+                    <figcaption>Brent Van de Staey</figcaption>
+                </figure>
+                    </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Services -->
-<section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-        <div class="content-section-heading">
-            <h3 class="text-secondary mb-0">Services</h3>
-            <h2 class="mb-5">What We Offer</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-                <h4>
-                    <strong>Responsive</strong>
-                </h4>
-                <p class="text-faded mb-0">Looks great on any screen size!</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-                <h4>
-                    <strong>Redesigned</strong>
-                </h4>
-                <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-                <h4>
-                    <strong>Favorited</strong>
-                </h4>
-                <p class="text-faded mb-0">Millions of users
-                    <i class="fas fa-heart"></i>
-                    Start Bootstrap!</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-                <h4>
-                    <strong>Question</strong>
-                </h4>
-                <p class="text-faded mb-0">I mustache you a question...</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Callout -->
-<section class="callout">
-    <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-            <em>your</em>
-            next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download
-            Now!</a>
-    </div>
-</section>
+
 
 <!-- Portfolio -->
 <section class="content-section" id="portfolio">
@@ -152,8 +129,8 @@
             <div class="col-lg-6">
                 <a class="portfolio-item" href="#">
                     <div class="caption">
-                        <div class="caption-content">
-                            <h2>Stationary</h2>
+                        <div class="caption-content"  id="portfolio1">
+                            <h2>websites</h2>
                             <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
                         </div>
                     </div>
@@ -164,7 +141,7 @@
                 <a class="portfolio-item" href="#">
                     <div class="caption">
                         <div class="caption-content">
-                            <h2>Ice Cream</h2>
+                            <h2>Hosting</h2>
                             <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream
                                 cone!</p>
                         </div>
@@ -176,7 +153,7 @@
                 <a class="portfolio-item" href="#">
                     <div class="caption">
                         <div class="caption-content">
-                            <h2>Strawberries</h2>
+                            <h2>Grafisch design</h2>
                             <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on
                                 top!</p>
                         </div>
@@ -187,8 +164,8 @@
             <div class="col-lg-6">
                 <a class="portfolio-item" href="#">
                     <div class="caption">
-                        <div class="caption-content">
-                            <h2>Workspace</h2>
+                        <div class="caption-content" id="portfolio1">
+                            <h2>Support</h2>
                             <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
                         </div>
                     </div>
@@ -198,15 +175,72 @@
         </div>
     </div>
 </section>
+<!-- Callout -->
+<!--<section class="callout">-->
+<!--    <div class="container text-center">-->
+<!--        <h2 class="mx-auto mb-5">Toekomstige projecten!</h2>-->
+<!--        <p>'for dummies'-site</p>-->
+<!--    </div>-->
+<!--</section>-->
 
 <!-- Call to Action -->
-<section class="content-section bg-primary text-white">
-    <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+<!--<section class="content-section bg-primary text-white">-->
+<!--    <div class="container text-center">-->
+<!--        <h2 class="mb-4">The buttons below are impossible to resist...</h2>-->
+<!--        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>-->
+<!--        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- Services -->
+<section class="content-section bg-primary text-white text-center" id="services">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">Services</h3>
+            <h2 class="mb-5">What We Offer</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-code"></i>
+          </span>
+                <h4>
+                    <strong>Webdesign </strong>
+                </h4>
+                <p class="text-faded mb-0">Looks great on any screen size!</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-palette"></i>
+          </span>
+                <h4>
+                    <strong>Grafisch design </strong>
+                </h4>
+                <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fab fa-cloudversify"></i>
+          </span>
+                <h4>
+                    <strong>Hosting</strong>
+                </h4>
+                <p class="text-faded mb-0">Millions of users
+                    <i class="fas fa-heart"></i>
+                    Start Bootstrap!</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-headset"></i>
+          </span>
+                <h4>
+                    <strong>Support</strong>
+                </h4>
+                <p class="text-faded mb-0">I mustache you a question...</p>
+            </div>
+        </div>
     </div>
 </section>
+
 
 <!-- Contact -->
 <section id="contact" class="content-section">
@@ -215,9 +249,26 @@
             <h3 class="text-secondary mb-0">Contact</h3>
             <h2 class="mb-5">Contact us</h2>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, explicabo iusto? Adipisci aliquam animi
-            autem, cupiditate doloremque enim id nulla numquam quae quasi, qui quidem tempore vel, veniam voluptatem
-            voluptatibus!</p>
+        <form action="form.php" method="post">
+            <p>
+                <label>Naam<sup>*</sup> <input type="text" id="naam" size="15" maxlength="20" name="naam" placeholder="naam" required></label>
+            </p>
+            <p>
+                <label>E-mailadres<sup>*</sup> <input type="email" id="email" size="15" name="email" placeholder="e-mailadres" required></label>
+            </p>
+            <p>
+                <label for="bericht">Graag hier uw bericht:</label>
+            </p>
+            <p>
+                <textarea name="bericht" id="bericht" cols="30" rows="7" placeholder="uw bericht"></textarea>
+            </p>
+            <p>
+                <label>Ik ga akkoord met de verwerking van mijn personengegevens<sup>*</sup> <input type="checkbox" id="akkoord" name="akkoord" value="akkoord" required></label>
+            </p>
+            <p>
+                <input type="submit" value="Verstuur">
+            </p>
+        </form>
     </div>
 </section>
 
