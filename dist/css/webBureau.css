@@ -1,6 +1,53 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+/*
+#2f3c7e
+#fbeaeb
+*/
 #portfolio{
     color: black;
     padding-top: 250px; 
 }
+#sidebar-wrapper {
+    background-color: #2f3c7e !important;
+    color:#fbeaeb !important;
+
+}
+nav a{
+    background-color: #2f3c7e !important;
+    color:#fbeaeb !important;
+}
+#about{
+    background-color: #2f3c7e !important;
+    color:#fbeaeb !important;
+
+}
+.portfolio{
+    background-color: #fbeaeb !important;
+    color:#2f3c7e!important;
+
+}
+#services, .bg-primary{
+    background-color: #2f3c7e !important;
+    color:#fbeaeb !important;
+
+}
+#contact{
+    background-color: #fbeaeb !important;
+    color:#2f3c7e!important;
+
+}
+.footer{
+    background-color: #2f3c7e !important;
+    color:#fbeaeb !important;
+}
+.service-icon{
+    color:#2f3c7e!important;
+    background-color: #fbeaeb !important;
+
+}
+.service-icon i{
+    color:#2f3c7e!important;
+}
+
+
