@@ -49,5 +49,13 @@ nav a{
 .service-icon i{
     color:#2f3c7e!important;
 }
+footer a{
+    background-color: #fbeaeb !important;
+    color: #2f3c7e !important;
+}
+footer i{
+    background-color: #fbeaeb !important;
+    color: #2f3c7e !important;
+}
 
 
