@@ -4,6 +4,12 @@
 #2f3c7e
 #fbeaeb
 */
+
+body{
+    font-family: 'Ruluko', sans-serif;
+
+}
+
 #portfolio{
     color: black;
     padding-top: 250px; 
@@ -57,5 +63,26 @@ footer i{
     background-color: #fbeaeb !important;
     color: #2f3c7e !important;
 }
+
+figure img{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Megrim', cursive;
+
+}
+
+
+@media (min-width:992px) {
+
+        .portfolio-item:hover .caption {
+        background-color: #2f3c7e !important;
+        opacity: 0.9 !important;
+        
+    }
+
+    
+}   
 
 
