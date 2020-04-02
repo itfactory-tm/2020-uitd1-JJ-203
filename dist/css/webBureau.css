@@ -1,87 +1,90 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 /*
-#2f3c7e
-#fbeaeb
+color1: #2f3c7e
+color2: #fbeaeb
 */
 
-body{
+body {
     font-family: 'Ruluko', sans-serif;
-
 }
 
-#portfolio{
+#portfolio {
     color: black;
-    padding-top: 250px; 
+    padding-top: 250px;
 }
+
 #sidebar-wrapper {
     background-color: #2f3c7e !important;
-    color:#fbeaeb !important;
-
+    color: #fbeaeb !important;
 }
-nav a{
+
+nav a {
     background-color: #2f3c7e !important;
-    color:#fbeaeb !important;
+    color: #fbeaeb !important;
 }
-#about{
+
+#about {
     background-color: #2f3c7e !important;
-    color:#fbeaeb !important;
+    color: #fbeaeb !important;
+}
 
-}
-.portfolio{
-    background-color: #fbeaeb !important;
-    color:#2f3c7e!important;
-
-}
-#services, .bg-primary{
-    background-color: #2f3c7e !important;
-    color:#fbeaeb !important;
-
-}
-#contact{
-    background-color: #fbeaeb !important;
-    color:#2f3c7e!important;
-
-}
-.footer{
-    background-color: #2f3c7e !important;
-    color:#fbeaeb !important;
-}
-.service-icon{
-    color:#2f3c7e!important;
-    background-color: #fbeaeb !important;
-
-}
-.service-icon i{
-    color:#2f3c7e!important;
-}
-footer a{
-    background-color: #fbeaeb !important;
-    color: #2f3c7e !important;
-}
-footer i{
+.portfolio {
     background-color: #fbeaeb !important;
     color: #2f3c7e !important;
 }
 
-figure img{
+#services,
+.bg-primary {
+    background-color: #2f3c7e !important;
+    color: #fbeaeb !important;
+}
+
+#contact {
+    background-color: #fbeaeb !important;
+    color: #2f3c7e !important;
+}
+
+.footer {
+    background-color: #2f3c7e !important;
+    color: #fbeaeb !important;
+}
+
+.service-icon {
+    color: #2f3c7e !important;
+    background-color: #fbeaeb !important;
+}
+
+.service-icon i {
+    color: #2f3c7e !important;
+}
+
+footer a {
+    background-color: #fbeaeb !important;
+    color: #2f3c7e !important;
+}
+
+footer i {
+    background-color: #fbeaeb !important;
+    color: #2f3c7e !important;
+}
+
+figure img {
     max-width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'Megrim', cursive;
-
 }
 
 
 @media (min-width:992px) {
-
-        .portfolio-item:hover .caption {
+    .portfolio-item:hover .caption {
         background-color: #2f3c7e !important;
-        opacity: 0.9 !important;   
-    } 
+        opacity: 0.9 !important;
+    }
 }
 
-form{
+form {
     margin: auto;
 }

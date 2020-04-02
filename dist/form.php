@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <!-- CSS: eigen stylesheet -->
     <link rel="stylesheet" href="css/webBureau.css">
 </head>
+
 <body>
     <h1>Formuluierverwerking</h1>
     <p>Bedankt voor uw bericht! Hier zijn nog eens al uw gegevens op een rijtje:</p>
@@ -47,8 +49,7 @@
     else{
         echo "<p> U ging niet akkoord met de voorwaarden. </p>\n";
     }
-
     ?>
-
 </body>
+
 </html>
