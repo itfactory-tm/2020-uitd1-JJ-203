@@ -78,11 +78,10 @@ h1{
 
         .portfolio-item:hover .caption {
         background-color: #2f3c7e !important;
-        opacity: 0.9 !important;
-        
-    }
+        opacity: 0.9 !important;   
+    } 
+}
 
-    
-}   
-
-
+form{
+    margin: auto;
+}
