@@ -227,19 +227,32 @@
         <div class="content-section-heading text-center">
             <h2 class="mb-5">Contacteer ons</h2>
         </div>
-        <form action="form.php" method="post">
-            <p>
-                <label>Naam<sup>*</sup> <input type="text" id="naam" size="15" maxlength="20" name="naam" placeholder="naam" required></label>
-            </p>
-            <p>
-                <label>E-mailadres<sup>*</sup> <input type="email" id="email" size="15" name="email" placeholder="e-mailadres" required></label>
-            </p>
-            <p>
-                <label for="bericht">Graag hier uw bericht:</label>
-            </p>
-            <p>
-                <textarea name="bericht" id="bericht" cols="30" rows="7" placeholder="uw bericht"></textarea>
-            </p>
+        <form class="w-50" action="form.php" method="post">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        <label for="naam">Naam<sup>*</sup>: </label>
+                    </p>
+                    <p>
+                        <input type="text" id="naam" size="15" maxlength="20" name="naam" placeholder="naam" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mailadres<sup>*</sup>: </label>
+                    </p>
+                    <p>
+                        <input type="email" id="email" size="15" name="email" placeholder="e-mailadres" required>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <p>
+                        <label for="bericht">Graag hier uw bericht:</label>
+                    </p>
+                    <p>
+                        <textarea name="bericht" id="bericht" cols="30" rows="7" placeholder="uw bericht"></textarea>
+                    </p>
+                </div>
+            </div>
+
             <p>
                 <label>Ik ga akkoord met de verwerking van mijn personengegevens<sup>*</sup> <input type="checkbox" id="akkoord" name="akkoord" value="akkoord" required></label>
             </p>
